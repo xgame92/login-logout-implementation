@@ -40,14 +40,16 @@ docker build -t aspnetapp .
 https://docs.docker.com/engine/examples/dotnetcore/
 ```
 
-#### Create Database(It will automatically connect and create the DB as Default):
-```bash
-dotnet ef database update
-```
 #### Change appsettings.json for your needed :
 ```bash
 docker build -t aspnetapp .
 ```
+#### More Info :
+```bash
+https://docs.docker.com/engine/examples/dotnetcore/
+https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows
+```
+
 ## Vue.js SPA Requirements
 
 #### Install dependencies:
